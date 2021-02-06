@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

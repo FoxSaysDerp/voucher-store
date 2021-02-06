@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -54,5 +54,10 @@ public class JdbcProductStorage implements ProductStorage {
     @Override
     public List<Product> allPublishedProducts() {
         return jdbcTemplate.query(SELECT_PUBLISHED, getProductRowMapper());
+    }
+
+    @Override
+    public void clear() {
+        jdbcTemplate.update("delete from `products_catalog__products`");
     }
 }

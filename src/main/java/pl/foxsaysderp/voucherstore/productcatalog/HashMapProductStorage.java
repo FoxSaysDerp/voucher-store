@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import java.util.List;
 import java.util.Map;
@@ -30,5 +30,10 @@ public class HashMapProductStorage implements ProductStorage {
                 .filter(p -> p.getDescription() != null)
                 .filter(p -> p.getPrice() != null)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public void clear() {
+        products.clear();
     }
 }

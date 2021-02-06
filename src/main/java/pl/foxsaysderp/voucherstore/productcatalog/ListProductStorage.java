@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,5 +17,10 @@ public class ListProductStorage implements ProductStorage {
     @Override
     public List<Product> allPublishedProducts() {
         return null;
+    }
+
+    @Override
+    public void clear() {
+
     }
 }
