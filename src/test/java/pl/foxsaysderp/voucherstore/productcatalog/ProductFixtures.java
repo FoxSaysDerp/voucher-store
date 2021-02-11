@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import java.math.BigDecimal;
 import java.util.UUID;

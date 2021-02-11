@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore.productcatalog;
+package pl.foxsaysderp.voucherstore.productcatalog;
 
 import org.junit.Assert;
 import org.junit.Test;

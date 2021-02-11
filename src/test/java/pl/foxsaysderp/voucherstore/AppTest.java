@@ -1,4 +1,4 @@
-package pl.jkanclerz.voucherstore;
+package pl.foxsaysderp.voucherstore;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
